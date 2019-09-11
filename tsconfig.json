@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./bin/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "jsxFactory": "m"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "files": ["custom.d.ts", "jsx.d.ts"]
+}
